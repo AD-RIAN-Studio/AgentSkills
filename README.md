@@ -9,6 +9,8 @@ These skills use **progressive disclosure**—delivering targeted procedural kno
 | Skill | Description | Direct Install |
 | :--- | :--- | :--- |
 | [`agents-guidance`](./skills/agents-guidance/) | High-signal methodology for creating, auditing, and maintaining `AGENTS.md` and repository-level instructions. | `npx skills add <user>/AgentSkills --skill agents-guidance` |
+| [`git-commit-message`](./skills/git-commit-message/) | Inspects git diffs to draft conventional commits and safely execute commits and pushes with confirmation. | `npx skills add <user>/AgentSkills --skill git-commit-message` |
+| [`plan-pro`](./skills/plan-pro/) | Researches codebase with subagents, aligns with user, and creates detailed implementation plans in `.agents/agent-plans/`. | `npx skills add <user>/AgentSkills --skill plan-pro` |
 
 ## Installation & Usage
 
