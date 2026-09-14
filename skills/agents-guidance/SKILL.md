@@ -45,7 +45,13 @@ If architecture remains unclear after reading configs:
 - Trace real package boundaries and execution flow.
 - Prefer files that explain system wiring over leaf implementation files.
 
-### Step 3: Executable vs. Prose Conflicts
+### Step 3: Subagent Delegation (When Available)
+If subagent capabilities (e.g., `invoke_subagent`, `research` subagents, or parallel task delegates) are available in the agent runtime:
+- **Delegate Broad Exploration**: Use subagents to concurrently investigate separate packages, services, or documentation directories without cluttering the primary context window.
+- **Targeted Research Prompts**: Task subagents with extracting specific, high-signal facts (e.g., *"Find the exact command to run a single unit test and list any local services required"*).
+- **Consolidate & Verify**: Use subagent outputs as candidate findings, verify them against root manifests, and synthesize the final compact instruction set.
+
+### Step 4: Executable vs. Prose Conflicts
 - **Always trust executable configs and scripts over prose documentation.**
 - If `README.md` claims `npm test` works, but `package.json` specifies `pnpm test:unit` with specific flags, record the executable command. Only keep facts you can verify.
 
