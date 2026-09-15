@@ -6,7 +6,7 @@ An AI agent skill for generating clean, conventional commit messages and safely 
 
 ### Via `skills.sh` CLI
 ```bash
-npx skills add <github-username>/AgentSkills --skill git-commit-message
+npx skills add AD-RIAN-Studio/AgentSkills --skill git-commit-message
 ```
 
 ### Manual Installation

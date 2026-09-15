@@ -8,7 +8,7 @@ Plans are persisted to `.agents/agent-plans/<slug>.md` so developers can inspect
 
 ### Via `skills.sh` CLI
 ```bash
-npx skills add <github-username>/AgentSkills --skill plan-pro
+npx skills add AD-RIAN-Studio/AgentSkills --skill plan-pro
 ```
 
 ### Manual Installation

@@ -1,5 +1,7 @@
 # Agent Skills
 
+[![skills.sh](https://skills.sh/b/AD-RIAN-Studio/AgentSkills)](https://skills.sh)
+
 An open-source collection of specialized AI agent skills designed for coding agents, compatible with [`skills.sh`](https://skills.sh) and the Agent Skills standard (`npx skills`).
 
 These skills use **progressive disclosure**—delivering targeted procedural knowledge, reference templates, and guidelines only when activated by an agent.
@@ -8,9 +10,9 @@ These skills use **progressive disclosure**—delivering targeted procedural kno
 
 | Skill | Description | Direct Install |
 | :--- | :--- | :--- |
-| [`agents-guidance`](./skills/agents-guidance/) | High-signal methodology for creating, auditing, and maintaining `AGENTS.md` and repository-level instructions. | `npx skills add <user>/AgentSkills --skill agents-guidance` |
-| [`git-commit-message`](./skills/git-commit-message/) | Inspects git diffs to draft conventional commits and safely execute commits and pushes with confirmation. | `npx skills add <user>/AgentSkills --skill git-commit-message` |
-| [`plan-pro`](./skills/plan-pro/) | Researches codebase with subagents, aligns with user, and creates detailed implementation plans in `.agents/agent-plans/`. | `npx skills add <user>/AgentSkills --skill plan-pro` |
+| [`agents-guidance`](./skills/agents-guidance/) | High-signal methodology for creating, auditing, and maintaining `AGENTS.md` and repository-level instructions. | `npx skills add AD-RIAN-Studio/AgentSkills --skill agents-guidance` |
+| [`git-commit-message`](./skills/git-commit-message/) | Inspects git diffs to draft conventional commits and safely execute commits and pushes with confirmation. | `npx skills add AD-RIAN-Studio/AgentSkills --skill git-commit-message` |
+| [`plan-pro`](./skills/plan-pro/) | Researches codebase with subagents, aligns with user, and creates detailed implementation plans in `.agents/agent-plans/`. | `npx skills add AD-RIAN-Studio/AgentSkills --skill plan-pro` |
 
 ## Installation & Usage
 
@@ -18,8 +20,11 @@ These skills use **progressive disclosure**—delivering targeted procedural kno
 Install any skill directly into your project's local agent configuration:
 
 ```bash
-# Install a specific skill
-npx skills add <github-username>/AgentSkills --skill agents-guidance
+# Interactive selection (lists all available skills)
+npx skills add AD-RIAN-Studio/AgentSkills
+
+# Or install a specific skill
+npx skills add AD-RIAN-Studio/AgentSkills --skill agents-guidance
 
 # Or install from local path (if cloned)
 npx skills add ./skills/agents-guidance

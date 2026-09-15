@@ -8,7 +8,7 @@ This skill trains AI agents to systematically inspect a codebase, identify hard-
 
 ### Via `skills.sh` CLI
 ```bash
-npx skills add <github-username>/AgentSkills --skill agents-guidance
+npx skills add AD-RIAN-Studio/AgentSkills --skill agents-guidance
 ```
 
 ### Manual Installation
