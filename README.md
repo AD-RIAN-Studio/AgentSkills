@@ -14,6 +14,11 @@ These skills use **progressive disclosure**—delivering targeted procedural kno
 | [`git-commit-message`](./skills/git-commit-message/) | Inspects git diffs to draft conventional commits and safely execute commits and pushes with confirmation. | `npx skills add AD-RIAN-Studio/AgentSkills --skill git-commit-message` |
 | [`plan-pro`](./skills/plan-pro/) | Researches codebase with subagents, aligns with user, and creates detailed implementation plans in `.agents/agent-plans/`. | `npx skills add AD-RIAN-Studio/AgentSkills --skill plan-pro` |
 
+## Guides & Documentation
+
+- [**Antigravity Custom Setup Guide**](./guides/antigravity-setup.md): Complete setup guide to manually install, configure, and display skills globally in Google Antigravity on Linux, macOS, and Windows.
+- [**Recommended Global Skills**](./guides/recommended-skills.md): Curated collection of essential global agent skills with repo slugs for one-line install.
+
 ## Installation & Usage
 
 ### Using `skills.sh` CLI
